@@ -9,35 +9,67 @@
    * A different format will require also updating the theme in tailwind.config.ts.
   */
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 40 20% 98%;
+    --foreground: 20 14% 8%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 20 14% 8%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 20 14% 8%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 110 80% 35%;
+    --primary-foreground: 0 0% 98%;
+    --primary-50: 110 80% 95%;
+    --primary-100: 110 75% 90%;
+    --primary-200: 110 70% 80%;
+    --primary-300: 110 70% 70%;
+    --primary-400: 110 75% 55%;
+    --primary-500: 110 80% 35%;
+    --primary-600: 110 85% 30%;
+    --primary-700: 110 90% 25%;
+    --primary-800: 110 95% 20%;
+    --primary-900: 110 100% 15%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 40 15% 92%;
+    --secondary-foreground: 20 14% 15%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 40 10% 94%;
+    --muted-foreground: 20 8% 50%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 110 30% 85%;
+    --accent-foreground: 110 80% 25%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 40 15% 88%;
+    --input: 40 15% 88%;
+    --ring: 110 80% 35%;
 
-    --radius: 0.5rem;
+    --earth-50: 30 40% 96%;
+    --earth-100: 30 35% 90%;
+    --earth-200: 30 30% 80%;
+    --earth-300: 30 25% 70%;
+    --earth-400: 30 20% 60%;
+    --earth-500: 30 25% 45%;
+    --earth-600: 30 30% 35%;
+    --earth-700: 30 35% 25%;
+    --earth-800: 30 40% 15%;
+    --earth-900: 30 45% 10%;
+
+    --nature-50: 120 60% 96%;
+    --nature-100: 120 55% 90%;
+    --nature-200: 120 50% 80%;
+    --nature-300: 120 45% 70%;
+    --nature-400: 120 40% 60%;
+    --nature-500: 120 45% 45%;
+    --nature-600: 120 50% 35%;
+    --nature-700: 120 55% 25%;
+    --nature-800: 120 60% 15%;
+    --nature-900: 120 65% 10%;
+
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
